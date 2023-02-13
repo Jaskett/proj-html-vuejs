@@ -4,7 +4,7 @@ import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     AppHeader,
     AppMain,
@@ -20,5 +20,12 @@ export default {
 </template>
 
 <style lang="scss">
+a {
+  text-decoration: none;
+  color: black;
+}
 
+li {
+  list-style-type: none;
+}
 </style>

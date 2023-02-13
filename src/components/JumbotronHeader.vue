@@ -1,11 +1,11 @@
 <script>
 export default {
-    name: 'AppMain',
+    name: 'JumbotronHeader'
 }
 </script>
 
 <template>
-    AppMain
+
 </template>
 
 <style lang="scss" scoped>
