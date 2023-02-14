@@ -74,8 +74,8 @@ export default {
                     <div class="ms-3">
                         <h4 class="fw-bold">{{ card.price }}</h4>
                         <p class="fw-bold fs-5">{{ card.text }}</p>
-                        <span class="me-3"><i class="far fa-file-alt"></i> {{ card.lessons }} Lessons</span>
-                        <span><i class="far fa-user"></i> {{ card.students }} Students</span>
+                        <span class="me-3"><font-awesome-icon icon="fa-solid fa-file"/> {{ card.lessons }} Lessons</span>
+                        <span><font-awesome-icon icon="fa-regular fa-circle-user"/> {{ card.students }} Students</span>
                     </div>
                 </div>
             </div>

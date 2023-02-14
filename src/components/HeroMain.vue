@@ -12,7 +12,7 @@ export default {
 
                 <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process.</p>
 
-                <button class="rounded py-3 px-5 text-white fw-bold">
+                <button class="rounded py-3 px-5 text-white">
                     <font-awesome-icon icon="fa-solid fa-download"/> Download free guide
                 </button>
 
@@ -72,8 +72,8 @@ section#hero-main {
     }
 
     button {
-        background-color: $JungleGreen !important;
-        color: white !important;
+        background-color: $JungleGreen;
+        color: white;
         border: transparent;
         font-weight: 700;
         padding: .5rem .2rem;
@@ -81,7 +81,7 @@ section#hero-main {
     }
 
     button:hover {
-        background-color: $GunPowder !important;
+        background-color: $GunPowder;
         color: white;
     }
 

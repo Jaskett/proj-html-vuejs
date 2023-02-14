@@ -1,52 +1,98 @@
 <script>
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    data() {
+        return {
+            searchBar: [
+                'Home',
+                'Pages',
+                'Courses',
+                'Features',
+                'Blog',
+                'Shop'
+            ]
+        }
+    }
 }
 </script>
 
 <template>
-    <header class="position-absolute w-100 py-3">
-        <div class="wrapped-container d-flex justify-content-center">
-            <img src="../assets/img/dark-logo.png" alt="Logo" id="main-logo">
+    <header>
+        <div class="container p-2 d-flex align-items-center">
+            <div class="row row-cols-auto align-items-center justify-content-between container-fluid p-0">
+                <div class="col">
+                    <img class="img-logo" src="../assets/img/dark-logo.png" alt="Logo">
+                </div>
 
-            <nav>
-                <ul class="m-0 d-flex">
-                    <li>Home <font-awesome-icon icon="fa-solid fa-chevron-down"/></li>
+                <div class="col">
+                    <ul class="d-flex m-0 align-items-center">
+                        <li v-for="(element, index) in searchBar" :key="index" class="px-3">
+                            <a href="#">
+                                {{ element }}
+                                <font-awesome-icon icon="fa-solid fa-chevron-down ms-1"/>
+                            </a>
+                        </li>
 
-                    <li>Pages <font-awesome-icon icon="fa-solid fa-chevron-down"/></li>
+                        <li class="px-3">
+                            <a href="#">
+                                <font-awesome-icon icon="fa-regular fa-circle-user" />
+                            </a>
+                        </li>
 
-                    <li>Courses <font-awesome-icon icon="fa-solid fa-chevron-down"/></li>
-
-                    <li>Features <font-awesome-icon icon="fa-solid fa-chevron-down"/></li>
-
-                    <li>Blog <font-awesome-icon icon="fa-solid fa-chevron-down"/></li>
-
-                    <li>Shop <font-awesome-icon icon="fa-solid fa-chevron-down"/></li>
-
-                    <li><font-awesome-icon icon="fa-regular fa-circle-user"/></li>
-
-                    <div class="searchbar">
-                        <input class="search_input" type="text" placeholder="Search...">
-
-                        <i><font-awesome-icon icon="fa-solid fa-magnifying-glass"/></i>
-                    </div>
-                </ul>
-            </nav>
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search..." >
+                                
+                                <span class="input-group-text" id="addon-wrapping">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 </template>
 
 <style lang="scss" scoped>
-img #main-logo {
-    width: 200px;
-}
+@use '../styles/partials/reset.scss' as *;
 
-nav ul {
-    padding-top: .5rem;
-    list-style-type: none;
+header {
+    .img-logo {
+        width: 150px;
+    }
 
     li {
-        margin: 0 1.5rem;
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: $Edward;
+
+            i {
+                font-size: smaller;
+            }
+        }
+    }
+
+    .input-group {
+        width: 70%;
+
+        input,
+        span {
+            background-color: $HintOfRed;
+            border: none;
+        }
+
+        input {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        span {
+            color: $MountainMeadow;
+        }
     }
 }
 </style>
