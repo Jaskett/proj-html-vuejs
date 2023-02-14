@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
+  <AppHeader class="shadow-sm" />
   <AppMain />
   <AppFooter />
 </template>
