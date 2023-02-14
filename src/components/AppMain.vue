@@ -2,13 +2,15 @@
 import HeroMain from './HeroMain.vue';
 import OnlineCourses from './OnlineCourses.vue';
 import Tutoring from './Tutoring.vue';
+import TopLearners from './TopLearners.vue';
 
 export default {
     name: 'AppMain',
     components: {
         HeroMain,
         OnlineCourses,
-        Tutoring
+        Tutoring,
+        TopLearners
     }
 }
 </script>
@@ -17,6 +19,7 @@ export default {
     <HeroMain />
     <OnlineCourses />
     <Tutoring />
+    <TopLearners />
 </template>
 
 <style lang="scss" scoped>
