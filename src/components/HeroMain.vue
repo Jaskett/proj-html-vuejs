@@ -12,7 +12,7 @@ export default {
 
                 <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process.</p>
 
-                <button class="rounded py-3 px-5 text-white">
+                <button class="rounded py-3 px-5">
                     <font-awesome-icon icon="fa-solid fa-download"/> Download free guide
                 </button>
 
@@ -54,7 +54,7 @@ export default {
 @use '../styles/partials/reset.scss' as *;
 
 section#hero-main {
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 #left-section {
@@ -65,10 +65,12 @@ section#hero-main {
 
     h2 {
         color: $GunPowder;
+        font-size: 3rem;
     }
 
     p {
         color: $ShadyLady;
+        font-weight: 700;
     }
 
     button {
@@ -78,6 +80,7 @@ section#hero-main {
         font-weight: 700;
         padding: .5rem .2rem;
         width: 280px;
+        margin-bottom: 2rem;
     }
 
     button:hover {
