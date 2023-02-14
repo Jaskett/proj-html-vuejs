@@ -1,12 +1,14 @@
 <script>
 import HeroMain from './HeroMain.vue';
 import OnlineCourses from './OnlineCourses.vue';
+import Tutoring from './Tutoring.vue';
 
 export default {
     name: 'AppMain',
     components: {
         HeroMain,
-        OnlineCourses
+        OnlineCourses,
+        Tutoring
     }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
     <HeroMain />
     <OnlineCourses />
+    <Tutoring />
 </template>
 
 <style lang="scss" scoped>
