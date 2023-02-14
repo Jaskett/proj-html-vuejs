@@ -20,5 +20,7 @@ export default {
 </template>
 
 <style lang="scss">
-
+@use 'bootstrap/scss/bootstrap.scss' as *;
+@use './styles/main.scss' as *;
+@use './styles/partials/reset.scss' as *;
 </style>
