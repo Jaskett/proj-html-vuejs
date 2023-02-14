@@ -83,6 +83,7 @@ header {
         span {
             background-color: $HintOfRed;
             border: none;
+            cursor: pointer;
         }
 
         input {

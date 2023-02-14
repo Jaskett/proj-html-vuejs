@@ -60,7 +60,7 @@ export default {
                         <div class="card-body">
                             <h5 class="card-title fw-bold">{{ card.title }}</h5>
                             <p class="card-text">{{ card.paragraph }}</p>
-                            <a href="#">{{ card.start }} <i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a class="card-start" href="#">{{ card.start }} <font-awesome-icon icon="fa-solid fa-right-long"/></a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@ export default {
         width: 18rem;
 
         img {
-            width: 150px;
+            width: 132px;
         }
 
         .card-body {
