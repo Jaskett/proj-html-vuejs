@@ -4,6 +4,7 @@ import OnlineCourses from './OnlineCourses.vue';
 import Tutoring from './Tutoring.vue';
 import TopLearners from './TopLearners.vue';
 import BestBlog from './BestBlog.vue';
+import Newsletter from './Newsletter.vue';
 
 export default {
     name: 'AppMain',
@@ -12,7 +13,8 @@ export default {
         OnlineCourses,
         Tutoring,
         TopLearners,
-        BestBlog
+        BestBlog,
+        Newsletter
     }
 }
 </script>
@@ -23,6 +25,7 @@ export default {
     <Tutoring />
     <TopLearners class="bg-red" />
     <BestBlog class="bg-red" />
+    <Newsletter />
 </template>
 
 <style lang="scss" scoped>
