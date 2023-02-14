@@ -78,11 +78,10 @@ section#hero-main {
     button {
         background-color: $JungleGreen;
         color: white;
-        border: transparent;
         font-weight: 700;
-        padding: .5rem .2rem;
         width: 280px;
         margin-bottom: 2rem;
+        border: none;
     }
 
     button:hover {
