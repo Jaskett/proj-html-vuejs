@@ -20,6 +20,8 @@ export default {
             </div>
 
             <div class="about-me-imgs position-relative text-center">
+                <div id="my-circle" class="rounded-pill position-absolute"></div>
+
                 <img src="../assets/img/maxcoach-shape-08.png" alt="" class="first-bg">
 
                 <img src="../assets/img/maxcoach-shape-08.png" alt="" class="second-bg">
@@ -95,17 +97,26 @@ section#hero-main {
     }
 }
 
+#my-circle {
+    height: 80px;
+    width: 80px;
+    border: 10px solid $first-circle;
+    left: -10%;
+    top: 59%;
+    z-index: 1;
+}
+
 img.first-bg {
     position: absolute;
     top: 25%;
-    left: 0;
+    left: -5%;
     transform: translateX(-40%);
 }
 
 img.second-bg {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -5%;
     transform: translateX(-40%);
 }
 
@@ -130,10 +141,11 @@ img.about-me {
 }
 
 .lateral-options {
-    height: 135px;
+    height: 145px;
     width: 35px;
-    background-color: white;
+    background-color: $HintOfRed;
     right: 0;
     top: 20%;
+    cursor: pointer;
 }
 </style>

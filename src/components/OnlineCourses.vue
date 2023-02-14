@@ -134,6 +134,10 @@ export default {
 
 .col-6:hover {
     background-color: white;
+
+    p {
+        color: $JungleGreen;
+    }
 }
 
 button {

@@ -177,7 +177,7 @@ export default {
     .selected-teacher-circle
     .fa.active{
         filter: opacity(100);
-        font-size: medium;
+        font-size: large;
     }
 
     .free-trial{

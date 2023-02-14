@@ -84,7 +84,7 @@ export default {
 
                     <p>Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some hidden hints of early-bird rewords as well.</p>
 
-                    <span class="fw-bold text-decoration-underline">Download free guide <i class="fas fa-long-arrow-alt-right"></i></span>
+                    <span class="fw-bold text-decoration-underline">Download free guidebook <font-awesome-icon icon="fa-solid fa-right-long"/></span>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@ export default {
         width: 18rem;
 
         img {
-            width: 160px;
+            width: 150px;
         }
 
         .card-body {
@@ -186,6 +186,7 @@ export default {
 
     span {
         color: $JungleGreen;
+        cursor: pointer;
     }
 
     p {
