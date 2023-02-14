@@ -1,11 +1,16 @@
 <script>
+import HeroMain from './HeroMain.vue';
+
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        HeroMain
+    }
 }
 </script>
 
 <template>
-    AppMain
+    <HeroMain />
 </template>
 
 <style lang="scss" scoped>
