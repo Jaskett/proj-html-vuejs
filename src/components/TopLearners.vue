@@ -54,7 +54,7 @@ export default {
             ]
         }
     },
-    created: function() {
+    created() {
         setInterval(this.scrollFunction, 5000);
     },
     methods: {
@@ -93,7 +93,7 @@ export default {
                 </div>
 
                 <div class="col-12 text-center selected-teacher-circle mb-5">
-                    <font-awesome-icon icon="fa-solid fa-circle " class="fa me-3" v-for="(teacher, index) in teacherCards" :key="index + ''" :class="(index === elementActive) ? ' active ' : ''" @click="elementActive = index"></font-awesome-icon>
+                    <font-awesome-icon icon="fa-solid fa-circle" class="fa me-3" v-for="(teacher, index) in teacherCards" :key="index + ''" :class="(index === elementActive) ? ' active ' : ''" @click="elementActive = index"></font-awesome-icon>
                 </div>
             </div>
 
@@ -121,50 +121,50 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/reset.scss' as *;
 
-.container-fluid {
+.container-fluid{
     width: calc(100% - 8px);
-
-    .col-12 {
-        h6 {
+    
+    .col-12{
+        h6{
             color: $ShadyLady;
         }
 
-        h3 {
+        h3{
             color: $GunPowder;
 
-            span {
+            span{
                 color: $JungleGreen;
             }
         }
     }
 
-    .selected-teacher-circle {
+    .selected-teacher-circle{
         font-size: small;
         cursor: pointer;
         filter: opacity(50%);
     }
 
-    .teacher-wrapper {
+    .teacher-wrapper{
         cursor: pointer;
         filter: opacity(50%);
 
-        #teacher-min-card {
-            img {
+        #teacher-min-card{
+            img{
                 height: 75px;
                 width: 75px;
             }
         }
 
-        h5 {
-            color: $GunPowder;
+        h5{
+            color: $GunPowder
         }
 
-        p {
+        p{
             color: $Edward;
         }
 
-        #teacher-min-card {
-            p:first-child {
+        #teacher-min-card{
+            p:first-child{
                 color: $GunPowder;
             }
         }
@@ -182,57 +182,57 @@ export default {
 
     .free-trial{
         margin-bottom: 6rem;
-        
+
         h6{
             color: $GunPowder;
-            
+
             span{
                 color: $JungleGreen;
             }
         }
-        
+
         button{
-            background-color: $JungleGreen;
-            color: white;
-            font-weight: 700;
-            padding: .5rem 2rem;
-            width: 280px;
+        background-color: $JungleGreen;
+        color: white;
+        font-weight: 700;
+        padding: .5rem 2rem;
+        width: 280px;
+    }
+    
+    button:hover{
+        background-color: $GunPowder;
+        color: white;
+    }
+    
+    h3 {
+        color: $GunPowder;
+    }
+    
+    div{
+        .my-left{
+            left: 20%;
         }
         
-        button:hover{
-            background-color: $GunPowder;
-            color: white;
-        }
-        
-        h3{
-            color: $GunPowder;
-        }
-
-        div{
-            
-            .my-left{
-                left: 20%;
-            }
-            .my-right{
-                right: 20%;
-            }
+        .my-right{
+            right: 20%;
         }
     }
+}
 
-    .certification-row{
-        border-color: $HintOfRed;
-        
-        h5{
-            color: $ShadyLady;
-        }
-
-        h5:first-child{
-            color: $GunPowder;
-        }
-
-        h2{
-            color: $JungleGreen;
-        }
+.certification-row{
+    border-color: $HintOfRed;
+    
+    h5{
+        color: $ShadyLady;
     }
+    
+    h5:first-child{
+        color: $GunPowder;
+    }
+    
+    h2{
+        color: $JungleGreen;
+    }
+}
 }
 </style>

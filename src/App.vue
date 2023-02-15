@@ -16,7 +16,7 @@ export default {
 <template>
   <AppHeader class="shadow-sm" />
   <AppMain />
-  <AppFooter />
+  <AppFooter class="bg-red position-relative" />
 </template>
 
 <style lang="scss">

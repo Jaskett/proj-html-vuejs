@@ -83,7 +83,7 @@ export default {
             <div class="row text-center">
                 <div class="col-12">
                     <button class="btn my-3 px-5 text-white fw-bold">
-                        View All Courses <i class="fas fa-long-arrow-alt-right"></i>
+                        View All Courses <font-awesome-icon icon="fa-solid fa-right-long"/>
                     </button>
                 </div>
             </div>
@@ -115,7 +115,7 @@ export default {
     img {
         width: 160px;
         height: 160px;
-        border-radius: 50% !important;
+        border-radius: 50%;
         object-fit: cover;
     }
 
@@ -141,15 +141,15 @@ export default {
 }
 
 button {
-    background-color: $JungleGreen !important;
-    color: white !important;
+    background-color: $JungleGreen;
+    color: white;
     font-weight: 700;
     padding: .5rem 2rem;
     width: 280px;
 }
 
 button:hover {
-    background-color: $GunPowder !important;
+    background-color: $GunPowder;
     color: white;
 }
 </style>

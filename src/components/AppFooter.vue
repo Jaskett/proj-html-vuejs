@@ -35,6 +35,7 @@ export default {
             <div class="row">
                 <div class="col-6 mb-5" v-for="(address, index) in addressInfo" :key="index + 'k'">
                     <h5 class="mb-4 fw-bold">Address</h5>
+
                     <div id="address-info">
                         <p>{{ address.location }}</p>
                         <p>{{ address.phone }}</p>
@@ -51,6 +52,7 @@ export default {
 
                 <div class="col-3">
                     <h5 class="mb-4 fw-bold">Explore</h5>
+
                     <div class="d-flex flex-column flex-wrap" id="explore-info">
                         <a href="#" v-for="(info, index) in exploreInfo" :key="index + 'l'">{{ info }}</a>
                     </div>
@@ -58,6 +60,7 @@ export default {
 
                 <div class="col-3">
                     <h5 class="mb-4 fw-bold">Information</h5>
+
                     <div class="d-flex flex-column flex-wrap" id="information-info">
                         <a href="#" v-for="(info, index) in informationInfo" :key="index + 'm'">{{ info }}</a>
                     </div>

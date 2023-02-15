@@ -8,7 +8,9 @@ export default {
     <section id="hero-main">
         <div class="wrapped-container d-flex position-relative">
             <div id="left-section">
-                <h2 class="fw-bold">Distant learning for further expansion</h2>
+                <h2 class="fw-bold">
+                    Distant learning for further expansion
+                </h2>
 
                 <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process.</p>
 
@@ -36,17 +38,25 @@ export default {
 
         <div class="wrapped-container me-5 p-5">
             <img src="../assets/img/client-logo-01.png" alt="Client logo 1" class="client m-5">
+
             <img src="../assets/img/client-logo-02.png" alt="Client logo 2" class="client m-5">
+
             <img src="../assets/img/client-logo-03.png" alt="Client logo 3" class="client m-5">
+
             <img src="../assets/img/client-logo-04.png" alt="Client logo 4" class="client m-5">
+
             <img src="../assets/img/client-logo-05.png" alt="Client logo 5" class="client m-5">
+
             <img src="../assets/img/client-logo-06.png" alt="Client logo 6" class="client m-5">
         </div>
 
         <div class="lateral-options position-absolute text-center fs-4 rounded-2 shadow-lg">
             <font-awesome-icon icon="fa-solid fa-ruler"/>
+
             <font-awesome-icon icon="fa-solid fa-life-ring"/>
+
             <font-awesome-icon icon="fa-solid fa-book"/>
+            
             <font-awesome-icon icon="fa-solid fa-cart-shopping"/>
         </div>
     </section>

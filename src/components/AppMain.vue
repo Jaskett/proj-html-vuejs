@@ -20,12 +20,14 @@ export default {
 </script>
 
 <template>
-    <HeroMain />
-    <OnlineCourses />
-    <Tutoring />
-    <TopLearners class="bg-red" />
-    <BestBlog class="bg-red" />
-    <Newsletter />
+    <main>
+        <HeroMain />
+        <OnlineCourses />
+        <Tutoring />
+        <TopLearners class="bg-red" />
+        <BestBlog class="bg-red" />
+        <Newsletter />
+    </main>
 </template>
 
 <style lang="scss" scoped>

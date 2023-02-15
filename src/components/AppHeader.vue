@@ -20,6 +20,7 @@ export default {
     <header>
         <div class="container p-2 d-flex align-items-center">
             <div class="row row-cols-auto align-items-center justify-content-between container-fluid p-0">
+                <!-- Logo Section -->
                 <div class="col">
                     <img class="img-logo" src="../assets/img/dark-logo.png" alt="Logo">
                 </div>
@@ -44,7 +45,7 @@ export default {
                                 <input type="text" class="form-control" placeholder="Search..." >
                                 
                                 <span class="input-group-text" id="addon-wrapping">
-                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass"/>
                                 </span>
                             </div>
                         </li>

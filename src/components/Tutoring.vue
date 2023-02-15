@@ -45,6 +45,7 @@ export default {
 <template>
     <div class="shadow">
         <div class="container p-2">
+            <!-- Titolo -->
             <div class="row text-center mb-4">
                 <div class="col-12">
                     <h6 class="text-uppercase fw-bold">maxcoach available courses</h6>
@@ -70,7 +71,7 @@ export default {
                 <div class="col-7 text-center position-relative">
                     <img :src="element.img" alt="Background Photo Profile" class="position-absolute" :class="element.class" v-for="(element, index) in bgTutoring" :key="index + 'd'">
 
-                    <img src="../../assets/img/home-2-popup-video-poster.jpg" alt="popup photo poster" id="photo-poster" class="position-relative p-4 ">
+                    <img src="../assets/img/home-2-popup-video-poster.jpg" alt="popup photo poster" id="photo-poster" class="position-relative p-4 ">
                 </div>
 
                 <div class="col-5 p-4 position-relative p-5">
@@ -112,7 +113,8 @@ export default {
         width: 18rem;
 
         img {
-            width: 132px;
+            width: 150px;
+            height: 132px;
         }
 
         .card-body {
@@ -166,6 +168,8 @@ export default {
         height: 80px;
         width: 80px;
         border: 10px solid $Eunry;
+        left: 2%;
+        top: -10%;
     }
 
     h6 {
