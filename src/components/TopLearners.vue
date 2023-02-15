@@ -126,14 +126,14 @@ export default {
     
     .col-12{
         h6{
-            color: $ShadyLady;
+            color: $light_grey;
         }
 
         h3{
-            color: $GunPowder;
+            color: $grey;
 
             span{
-                color: $JungleGreen;
+                color: $aqua;
             }
         }
     }
@@ -156,16 +156,16 @@ export default {
         }
 
         h5{
-            color: $GunPowder
+            color: $grey;
         }
 
         p{
-            color: $Edward;
+            color: $light_grey;
         }
 
         #teacher-min-card{
             p:first-child{
-                color: $GunPowder;
+                color: $light_grey;
             }
         }
     }
@@ -184,15 +184,15 @@ export default {
         margin-bottom: 6rem;
 
         h6{
-            color: $GunPowder;
+            color: $grey;
 
             span{
-                color: $JungleGreen;
+                color: $aqua;
             }
         }
 
         button{
-        background-color: $JungleGreen;
+        background-color: $aqua;
         color: white;
         font-weight: 700;
         padding: .5rem 2rem;
@@ -200,12 +200,12 @@ export default {
     }
     
     button:hover{
-        background-color: $GunPowder;
+        background-color: $purple;
         color: white;
     }
     
     h3 {
-        color: $GunPowder;
+        color: $grey;
     }
     
     div{
@@ -220,18 +220,18 @@ export default {
 }
 
 .certification-row{
-    border-color: $HintOfRed;
+    
     
     h5{
-        color: $ShadyLady;
+        color: $light_grey;
     }
     
     h5:first-child{
-        color: $GunPowder;
+        color: $grey;
     }
     
     h2{
-        color: $JungleGreen;
+        color: $aqua;
     }
 }
 }

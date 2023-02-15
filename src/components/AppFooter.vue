@@ -82,32 +82,45 @@ export default {
 @use '../styles/partials/reset.scss' as *;
 
 #address-info {
-    color: $CodGrey;
+    color: $light_grey;
 }
 
 .icons {
-    color: $Edward;
+    color: $light-grey;
+    cursor: pointer;
+}
+
+.icon {
+    color: $aqua;
 }
 
 #explore-info {
     height: 95px;
 
     a {
-        color: $CodGrey;
+        color: $light_grey;
         text-decoration: none;
+
+        &:hover {
+            color: $aqua;
+        }
     }
 }
 
 #information-info {
     a {
-        color: $CodGrey;
+        color: $light_grey;
         text-decoration: none;
+
+        &:hover {
+            color: $aqua;
+        }
     }
 }
 
 .col-12 {
     a {
-        color: $Edward;
+        color: $light_grey;
         text-decoration: none;
     }
 }
@@ -117,7 +130,7 @@ export default {
     right: 2%;
     height: 80px;
     width: 80px;
-    background-color: $JungleGreen;
+    background-color: $aqua;
     border-radius: 50%;
     display: flex;
     align-items: center;

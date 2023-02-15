@@ -32,15 +32,15 @@ export default {
 
 .col-12 {
     h3 {
-        color: $GunPowder;
+        color: $grey;
 
         span {
-            color: $JungleGreen;
+            color: $aqua;
         }
     }
 
     p {
-        color: $Edward;
+        color: $light_grey;
     }
 
     .my-left,
@@ -60,24 +60,24 @@ export default {
         width: 40%;
 
         input {
-            background-color: $HintOfRed;
+            background-color: $dark_white;
             border: none;
         }
 
         ::placeholder {
-            color: $Edward;
+            background-color: $dark-white;
         }
 
         button {
             width: 30%;
-            background-color: $JungleGreen;
+            background-color: $aqua;
             color: white;
             font-weight: 700;
             padding: .5rem 2rem;
         }
 
         button:hover {
-            background-color: $GunPowder;
+            background-color: $purple;
             color: white;
         }
     }

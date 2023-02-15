@@ -30,13 +30,13 @@ export default {
                         <li v-for="(element, index) in searchBar" :key="index" class="px-3">
                             <a href="#">
                                 {{ element }}
-                                <font-awesome-icon icon="fa-solid fa-chevron-down ms-1"/>
+                                <font-awesome-icon icon="fa-solid fa-chevron-down ms-1"/>      
                             </a>
                         </li>
 
                         <li class="px-3">
                             <a href="#">
-                                <font-awesome-icon icon="fa-regular fa-circle-user" />
+                                <font-awesome-icon icon="fa-regular fa-circle-user"/>
                             </a>
                         </li>
 
@@ -69,7 +69,7 @@ header {
 
         a {
             text-decoration: none;
-            color: $Edward;
+            color: $grey;
 
             i {
                 font-size: smaller;
@@ -82,7 +82,7 @@ header {
 
         input,
         span {
-            background-color: $HintOfRed;
+            background-color: $dark_white;
             border: none;
             cursor: pointer;
         }
@@ -93,7 +93,7 @@ header {
         }
 
         span {
-            color: $MountainMeadow;
+            color: $aqua;
         }
     }
 }

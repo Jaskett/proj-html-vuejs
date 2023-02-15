@@ -76,17 +76,17 @@ section#hero-main {
     padding: 8rem;
 
     h2 {
-        color: $GunPowder;
+        color: $grey;
         font-size: 3rem;
     }
 
     p {
-        color: $ShadyLady;
+        color: $light_grey;
         font-weight: 700;
     }
 
     button {
-        background-color: $JungleGreen;
+        background-color: $aqua;
         color: white;
         font-weight: 700;
         width: 280px;
@@ -95,13 +95,13 @@ section#hero-main {
     }
 
     button:hover {
-        background-color: $GunPowder;
+        background-color: $purple;
         color: white;
     }
 
     .green {
-        color: $JungleGreen;
-        border: 1px solid $ShadyLady;
+        color: $aqua;
+        border: 1px solid $dark_white_2;
         cursor: pointer;
     }
 }
@@ -109,7 +109,7 @@ section#hero-main {
 #my-circle {
     height: 80px;
     width: 80px;
-    border: 10px solid $first-circle;
+    border: 10px solid $orange;
     left: -10%;
     top: 59%;
     z-index: 1;

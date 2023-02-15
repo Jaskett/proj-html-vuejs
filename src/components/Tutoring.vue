@@ -97,14 +97,14 @@ export default {
 
 .col-12 {
     h6 {
-        color: $ShadyLady;
+        color: $light_grey;
     }
 
     h3 {
-        color: $GunPowder;
+        color: $grey;
 
         span {
-            color: $JungleGreen;
+            color: $aqua;
         }
     }
 
@@ -119,16 +119,16 @@ export default {
 
         .card-body {
             .card-title {
-                color: $GunPowder;
+                color: $grey;
             }
 
             .card-text {
-                color: $Edward;
+                color: $light_grey;
             }
 
             a {
                 text-decoration: none;
-                color: $ShadyLady;
+                color: $light_grey;
             }
 
             span {
@@ -167,34 +167,34 @@ export default {
     #my-circle {
         height: 80px;
         width: 80px;
-        border: 10px solid $Eunry;
+        border: 10px solid $orange;
         left: 2%;
         top: -10%;
     }
 
     h6 {
-        color: $ShadyLady;
+        color: $light_grey;
 
         span {
-            color: $GunPowder;
+            color: $grey;
         }
     }
 
     h1 {
-        color: $GunPowder;
+        color: $grey;
 
         span {
-            color: $JungleGreen;
+            color: $aqua;
         }
     }
 
     span {
-        color: $JungleGreen;
+        color: $aqua;
         cursor: pointer;
     }
 
     p {
-        color: $Edward;
+        color: $light_grey;
     }
 }
 </style>

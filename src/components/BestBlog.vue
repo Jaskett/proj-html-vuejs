@@ -69,21 +69,21 @@ export default {
 
 .col-4 {
     p {
-        color: $Edward;
+        color: $light_grey;
     }
 
     h2 {
-        color: $GunPowder;
+        color: $grey;
 
         span {
-            color: $JungleGreen;
+            color: $aqua;
         }
     }
 
     .col-12 {
         p,
         i {
-            color: $GunPowder;
+            color: $grey;
         }
     }
 }
@@ -93,11 +93,11 @@ export default {
 
     h6,
     span {
-        color: $Edward;
+        color: $light_grey;
     }
 
     p {
-        color: $GunPowder;
+        color: $grey;
     }
 }
 </style>

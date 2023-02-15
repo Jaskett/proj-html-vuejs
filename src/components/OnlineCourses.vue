@@ -94,17 +94,13 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/reset.scss' as *;
 
-#online-wrapper {
-    background-color: $HintOfRed;
-}
-
 .col-12 {
     p {
-        color: $Edward;
+        color: $light_grey;
     }
 
     h2 {
-        color: $GunPowder;
+        color: $grey;
     }
 }
 
@@ -120,28 +116,28 @@ export default {
     }
 
     h4 {
-        color: $JungleGreen;
+        color: $aqua;
     }
 
     p {
-        color: $GunPowder;
+        color: $grey;
     }
 
     span {
-        color: $Edward;
+        color: $light_grey;
     }
 }
 
 .col-6:hover {
-    background-color: white;
+    background-color: $white;
 
     p {
-        color: $JungleGreen;
+        color: $aqua;
     }
 }
 
 button {
-    background-color: $JungleGreen;
+    background-color: $aqua;
     color: white;
     font-weight: 700;
     padding: .5rem 2rem;
@@ -149,7 +145,7 @@ button {
 }
 
 button:hover {
-    background-color: $GunPowder;
+    background-color: $purple;
     color: white;
 }
 </style>

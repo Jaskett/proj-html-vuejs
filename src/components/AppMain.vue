@@ -22,10 +22,10 @@ export default {
 <template>
     <main>
         <HeroMain />
-        <OnlineCourses />
+        <OnlineCourses class="bg-azure" />
         <Tutoring />
-        <TopLearners class="bg-red" />
-        <BestBlog class="bg-red" />
+        <TopLearners class="bg-azure" />
+        <BestBlog class="bg-azure" />
         <Newsletter />
     </main>
 </template>
