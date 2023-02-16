@@ -71,6 +71,10 @@ header {
             text-decoration: none;
             color: $grey;
 
+            &:active {
+                color: $aqua;
+            }
+
             i {
                 font-size: smaller;
             }
