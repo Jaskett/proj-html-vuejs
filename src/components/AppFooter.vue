@@ -42,10 +42,10 @@ export default {
                         <p class="mb-4">{{ address.mail }}</p>
 
                         <div class="icons">
-                            <font-awesome-icon icon="fa-brands fa-facebook" class="me-3 fs-4"/>
-                            <font-awesome-icon icon="fa-brands fa-twitter" class="me-3 fs-4"/>
-                            <font-awesome-icon icon="fa-brands fa-instagram" class="me-3 fs-4"/>
-                            <font-awesome-icon icon="fa-brands fa-linkedin" class="me-3 fs-4"/>
+                            <font-awesome-icon icon="fa-brands fa-facebook" class="me-3 fs-4 active-facebook"/>
+                            <font-awesome-icon icon="fa-brands fa-twitter" class="me-3 fs-4 active-twitter"/>
+                            <font-awesome-icon icon="fa-brands fa-instagram" class="me-3 fs-4 active-instagram"/>
+                            <font-awesome-icon icon="fa-brands fa-linkedin" class="me-3 fs-4 active-linkedin"/>
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,36 @@ export default {
     cursor: pointer;
 }
 
-.icon {
-    color: $aqua;
+.active-facebook {
+    color: $light-grey;
+
+    &:hover {
+        color: $aqua;
+    }
+}
+
+.active-twitter {
+    color: $light-grey;
+
+    &:hover {
+        color: $aqua;
+    }
+}
+
+.active-instagram {
+    color: $light-grey;
+
+    &:hover {
+        color: $aqua;
+    }
+}
+
+.active-linkedin {
+    color: $light-grey;
+
+    &:hover {
+        color: $aqua;
+    }
 }
 
 #explore-info {
